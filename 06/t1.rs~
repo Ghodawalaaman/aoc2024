@@ -1,0 +1,6 @@
+use std::fs;
+
+fn main() {
+    let contents = fs::read_to_string(file_path).expect("Should have able to read the file");
+}
+
